@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram Post</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/742e7e45c8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg bg-light mb-6">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="https://www.instagram.com/">
+        <i class="fa-brands fa-instagram mr-1"></i>
+        <span style="margin-left: 3px;"><b>Instagram</b></span>
+      </a>
+      <div class="d-flex justify-content-end">
+      <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Create a new post </button>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle mx-1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fa-solid fa-gear"></i>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Profile</a></li>
+          <li><a class="dropdown-item" href="#">Accessibility</a></li>
+          <li><a class="dropdown-item" href="#">Privacy And Data</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item text-danger" href="#">Log Out</a></li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </nav>
+  <div class="d-flex justify-content-center">
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="/index.html"><i class="fa-solid fa-square fs-5 text-secondary"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/second.html"><i class="fa-brands fa-microsoft fs-5 text-secondary"></i></a>
+      </li>
+    </ul>
+  </div>
+  
+  <div class="d-flex justify-content-center mt-5 mb-2">
+    <div class="card mb-2" style="width: 500px;">
+      <div class="d-flex justify-content-between">
+      <h5 class="card-title my-2 ms-2">Michael Jordan "23"</h5>
+      <p class="mx-2">06/23</p>
+    </div>
+      <img src="https://imagenes.elpais.com/resizer/j8513u3AnvaEoh1AY4H1qVdwJEY=/1960x1470/cloudfront-eu-central-1.images.arcpublishing.com/prisa/Z5PD7UD4YZGYBGYSV3GAR3UVME.jpg" class="card-img-top" alt="Jordan">
+      <div class="card-body">
+        <h5 class="card-title">578 Likes</h5>
+        <p class="card-text">Basketball player</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex justify-content-center mb-2">
+    <div class="card mb-2" style="width: 500px;">
+      <div class="d-flex justify-content-between">
+      <h5 class="card-title my-2 ms-2">Lionel Messi</h5>
+      <p class="mx-2">08/23</p>
+    </div>
+      <img src="https://media.tycsports.com/files/2023/02/10/532928/lionel-messi_1440x810_wmk.webp" class="card-img-top" alt="Messi">
+      <div class="card-body">
+        <h5 class="card-title">2455 Likes</h5>
+        <p class="card-text">Football player</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex justify-content-center mb-2">
+    <div class="card mb-2" style="width: 500px;">
+      <div class="d-flex justify-content-between">
+      <h5 class="card-title my-2 ms-2">Muhammad Ali</h5>
+      <p class="mx-2">01/22</p>
+    </div>
+      <img src="https://people.com/thmb/CzyCnblYK2vJiYKZcKQI9C5wqs8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(216x0:218x2)/muhammad-ali-435-1-3a9eced7720841e9ae8f2b7448b14f7b.jpg" class="card-img-top" alt="Ali">
+      <div class="card-body">
+        <h5 class="card-title">3001 Likes</h5>
+        <p class="card-text">Boxer</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex justify-content-center mb-2">
+    <div class="card mb-2" style="width: 500px;">
+      <div class="d-flex justify-content-between">
+      <h5 class="card-title my-2 ms-2">Michael Phelps</h5>
+      <p class="mx-2">12/23</p>
+    </div>
+      <img src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2016/10/199672-michael-phelps-jjoo-rio-2016.jpg?tf=3840x" class="card-img-top" alt="Phelps">
+      <div class="card-body">
+        <h5 class="card-title">1277 Likes</h5>
+        <p class="card-text">Swimmer</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Add the caption of your post here
+        </div>
+        <div class="d-flex justify-content-between">
+          <div class="modal-footer">
+            <i class="fa-solid fa-camera fs-5"></i>
+            <i class="fa-solid fa-location-dot"></i>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-success">Publish</button>
+          </div>
+
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
